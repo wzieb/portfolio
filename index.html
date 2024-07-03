@@ -1,0 +1,82 @@
+<!-- GIVEN I need to sample a potential employee's previous work
+WHEN I load their portfolio
+THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
+WHEN I click one of the links in the navigation
+THEN the UI scrolls to the corresponding section
+WHEN I click on the link to the section about their work
+THEN the UI scrolls to a section with titled images of the developer's applications
+WHEN I am presented with the developer's first application
+THEN that application's image should be larger in size than the others
+WHEN I click on the images of the applications
+THEN I am taken to that deployed application
+WHEN I resize the page or view the site on various screens and devices
+THEN I am presented with a responsive layout that adapts to my viewport -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Will Ziebert Web Dev">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Will Ziebert -Junior Developer</title>
+    <link rel="icon" id="favicon" href="photos/unnamed.jpg">
+    <link rel="stylesheet" href= "css/style.css">
+  </head>
+  <body>
+    <header>      
+      <h1>Will Ziebert</h1>
+      <nav>
+        <ul class="menu">
+          <li><a href="#about">about</a></li>
+          <li><a href="#work">work</a></li>
+          <li><a href="#resume">resume</a></li>
+          <li><a href="#contact">contact</a></li>
+        </ul>
+      </nav>
+     </header> 
+    <section class="home-screen">
+      <article id="introduction"><!--<span style='font-size:30px;'>&#128311;</span> -->
+        <aside>Hi, I'm Will | Junior Developer</aside>
+      </article>
+          <article class="profile">
+            <img alt= "a picture of will" src="photos/SFW_profile.jpg" id="profile">
+          </article>
+    </section>
+    <section class="about-section" id="about">
+      <article id="skills">
+        <h2>About Me</h2>
+          <p>I love challenging myself. I'm a lifetime learner.</p>
+          <p>surfing &#127940;,jiu jitsu &#129355;, fly fishing &#127907;</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus tenetur soluta pariatur quos, doloremque quisquam atque est nobis reiciendis illo, esse suscipit non provident itaque voluptas corporis minus eos minima.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus tenetur soluta pariatur quos, doloremque quisquam atque est nobis reiciendis illo, esse suscipit non provident itaque voluptas corporis minus eos minima.</p>
+      </article>
+    </section>
+    <section class="work-section" id="work">
+      <article id="horiseon">
+        <h2>Work</h2>
+          <a href="https://wzieb.github.io/Horiseon-Work/">
+            <img id="work-ex-1"src="/photos/business_placeholder.webp" alt="busines photo">
+          </a>
+          <h3>Horiseon Website</h3>
+          <p>Website Redesign</p>
+      <article id="placeholder-ex">
+        <h3>Github - To add projects as they come!</h3>
+        <a href="https://github.com/wzieb">
+          <img src="/photos/download.png" alt="github logo">
+        </a>
+      </article>
+      </article>
+    </section>
+    <section class="resume-section" id="resume">
+      <article id="skills">
+        <h2>Resume</h2>
+          <a href="Will_Ziebert_Resume.docx">Link to Resume</a>
+      </article>
+    </section>
+    <section class="contact-section" id="contact">
+      <article id="skills">
+        <h2>Contact</h2>
+          <h3>&#128236;Email:w.ziebert@gmail.com</h3>
+      </article>
+    </section>
+  </body>
+</html>

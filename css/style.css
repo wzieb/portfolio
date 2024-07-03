@@ -1,0 +1,102 @@
+#favicon {
+  border-radius: 50%;
+}aside {
+  font-size: large;
+}
+/*hr{
+ can't get <hr> to show as a line...
+}*/
+html, body{
+  margin:0;
+  padding: 0;
+  height: auto;
+  width:100vw;
+}
+li {
+  list-style-type: none;
+} 
+li{
+  color: white;
+  text-decoration: none;
+}
+li:hover {
+  color:aqua;
+  text-decoration: underline;
+}
+header {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: cadetblue;
+  height:120px;
+}
+header nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100vw;
+}
+.home-screen {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+}
+.home-screen #introduction {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h2{
+  color:lightblue;
+  text-decoration:underline;
+  text-decoration-color: lightgreen;
+}
+
+#profile {
+  width: 400px;
+  border-radius: 50px;
+  display:flex; 
+  }
+
+  @media screen and (max-width: 992px) {
+    #profile {
+      display:inline-block;
+      width: 60%;
+    }
+  }
+  /*
+.profile {
+  border-radius:50px;
+  width:50px;
+
+}
+.divider {
+  color: orange;
+}
+li {
+  display:list-item;
+}
+#profile {
+  width: 17%;
+  border-radius: 50px;
+  margin-left:400px;
+  }
+header{
+  background-color:rgba(0, 132, 255, 0.998);
+}
+h1{
+  text-align:center;
+}
+nav{
+  color:#ffff;
+  display:inline;
+  text-align:center;
+
+}
+li{
+  display:inline;
+  text-align:center;
+  margin-left:10px;
+}*/
